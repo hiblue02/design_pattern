@@ -169,7 +169,7 @@ class Calculator5 private constructor() {
 }
 ```
 
-### Spring에서 Singlton을 사용하는 이유
+### Spring에서 Singleton을 사용하는 이유
 - 대용량 처리를 위해서이다. 상태가 없는 자바 객체를 매번 새로 만드는 비효율을 줄이기 위해서이다. 
 - Spring IoC Container가 생성될 때, (application 기동할 때) 모든 Bean들을 만들고, Bean 설정에 대한 예외처리를 초기에 검증한다.
 
